@@ -4,3 +4,6 @@ E_INT = "71828182845904523536028747135266249775724709369995957496696762772407663
 def pi_real(n):
     n = int(n)
     return("3,"+PI_INT[0:n])
+def e_real(n):
+    n = int(n)
+    return("2,"+E_INT[0:n])
